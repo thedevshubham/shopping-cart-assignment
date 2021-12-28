@@ -1,0 +1,7 @@
+.footer-content {
+    height: 3rem;
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

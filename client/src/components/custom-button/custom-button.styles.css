@@ -1,0 +1,27 @@
+.custom-button,
+.custom-button-disable {
+  min-width: 100%;
+  width: auto;
+  height: 50px;
+  letter-spacing: 0.5px;
+  line-height: 50px;
+  font-size: 15px;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+}
+
+.custom-button {
+  background-color: deeppink;
+}
+
+.custom-button-disable {
+  background-color: pink;
+}
+
+.custom-button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}

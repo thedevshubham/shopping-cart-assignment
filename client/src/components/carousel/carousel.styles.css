@@ -1,0 +1,7 @@
+.carousel-root {
+    margin-top: 0.2%;
+}
+
+.carousel.carousel-slider {
+    box-shadow: 7px 4px 12px lightgrey;
+}

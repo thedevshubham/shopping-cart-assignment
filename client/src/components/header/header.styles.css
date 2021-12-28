@@ -1,0 +1,47 @@
+header {
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  box-shadow: 0 5px 7px -7px grey;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
+}
+
+.header__left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a {
+  padding: 0 10px 0 0;
+  text-decoration: none;
+  font-weight: 500;
+  color: darkgrey;
+}
+
+nav a:hover {
+  color: lightgray;
+}
+
+.header__right_cart {
+  background-color: lightgray;
+  padding: 2px;
+  height: 8vh;
+  cursor: pointer;
+}
+
+.header__avatar {
+  padding: 1%;
+  border-radius: 1px;
+  font-size: smaller;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.header__right {
+  padding-left: 20px;
+}

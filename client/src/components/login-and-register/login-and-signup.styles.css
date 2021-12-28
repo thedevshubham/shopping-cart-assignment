@@ -1,0 +1,43 @@
+.signin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.signin__message_content {
+    flex: 1;
+}
+
+.signin__form {
+    flex: 1;
+}
+
+@media screen and (max-width: 425px) {
+    .signin {
+        flex-direction: column;
+    }
+
+    .signin__form {
+        margin-top: 10%;
+    }
+}
+
+.signin__message_content span {
+    font-weight: 500;
+}
+
+.form-btn {
+    margin-top: 50px;
+}
+
+.input_error {
+    color: red;
+    font-size: small;
+    font-weight: 600;
+}
